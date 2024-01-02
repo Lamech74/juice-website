@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Juice Order</title>
+</head>
+<body>
+
+    <h1>Custom Juice Order</h1>
+
+    <form id="juiceForm">
+        <label for="flavor1">Flavor 1:</label>
+        <select id="flavor1" name="flavor1">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="berry">Berry</option>
+        </select>
+
+        <label for="flavor2">Flavor 2:</label>
+        <select id="flavor2" name="flavor2">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="berry">Berry</option>
+        </select>
+
+        <label for="flavor3">Flavor 3:</label>
+        <select id="flavor3" name="flavor3">
+            <option value="apple">Apple</option>
+            <option value="orange">Orange</option>
+            <option value="berry">Berry</option>
+        </select>
+
+        <button type="button" onclick="placeOrder()">Place Order</button>
+    </form>
+
+    <div id="orderResult"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
