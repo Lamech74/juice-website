@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+label, select {
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#orderResult {
+    margin-top: 20px;
+    font-weight: bold;
+}
